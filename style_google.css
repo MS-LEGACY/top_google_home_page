@@ -5,7 +5,7 @@
     font-family: 'Material Icons';
     font-weight: normal;
     font-style: normal;
-    font-size: 24px;  /* Preferred icon size */
+    font-size: 36px;  /* Preferred icon size */
     display: inline-block;
     line-height: 1;
     text-transform: none;
@@ -13,7 +13,7 @@
     word-wrap: normal;
     white-space: nowrap;
     direction: ltr;
-  
+    color: rgba(0, 0, 0, 0.26);
     /* Support for all WebKit browsers. */
     -webkit-font-smoothing: antialiased;
     /* Support for Safari and Chrome. */
@@ -25,17 +25,48 @@
     /* Support for IE. */
     font-feature-settings: 'liga';
   }
+  .material-icons:hover {
+   
+    color: rgba(0, 0, 0, 0.747);
+  }
   .header
   {
       background-color: transparent;
       display: flex;
       flex-direction: row;
-      justify-content: flex-end;
+      /* justify-content: flex-end; */
       max-width: 100%;
       width: 100%;
-  }
-  .header-elements
-  {
-      flex:0 0 auto; 
+      height: fit-content;
+      column-gap: 20px;
+      align-items: center;
       
   }
+  .header-element
+  {
+      flex:0 0 auto; 
+
+      
+  }
+  .header-end
+  {
+      flex: 0 0 auto;
+      margin-left: auto;
+      /* margin-right: auto; */
+  }
+  .github-icon
+  {
+     width: 36px;
+     height: 100%;
+      
+  }
+ .github-image
+{
+    height: 100%;
+    width: 100%;
+}
+.github-image:hover
+{
+   box-shadow: 0 0 15px 5px rgb(187, 180, 180);
+
+}
