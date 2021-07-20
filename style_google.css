@@ -58,16 +58,19 @@
   {
      width: 36px;
      height: 100%;
+     border-radius: 50%;
+     
       
   }
  .github-image
 {
     height: 100%;
     width: 100%;
+    border-radius: 50%;
 }
 .github-image:hover
 {
-   box-shadow: 0 0 15px 5px rgb(187, 180, 180);
+   box-shadow: 0 0 5px 5px rgb(187, 180, 180);
 
 }
 .google-image
