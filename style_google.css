@@ -25,4 +25,17 @@
     /* Support for IE. */
     font-feature-settings: 'liga';
   }
-  
+  .header
+  {
+      background-color: transparent;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      max-width: 100%;
+      width: 100%;
+  }
+  .header-elements
+  {
+      flex:0 0 auto; 
+      
+  }
