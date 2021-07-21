@@ -198,3 +198,6 @@
     margin-left: auto;
     padding-right: 30px;
 }
+a:visited{
+    color: inherit;
+}
